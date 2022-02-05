@@ -3,7 +3,6 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    color: white;
     font-family: 'Open Sans', sans-serif;
     /* font-family: 'Oswald', sans-serif; */
 }
@@ -13,6 +12,7 @@
     width: 100%;
     background-repeat: no-repeat;
     background-size: contain;
+    color: white;
 }
 .navigation {
     display: flex;
@@ -59,4 +59,69 @@
     padding: 15px 35px;
     font-family: 'Open Sans', sans-serif;
     font-size: 18px;
+    color: white;
+}
+.stringone {
+    width: 100px;
+    height: 3px;
+    background-color: rgb(0, 91, 193);
+}
+.stringtwo {
+    margin-left: 50px;
+    margin-top: 15px;
+    width: 50px;
+    height: 3px;
+    background-color: rgb(0, 91, 193);
+}
+.slider {
+    display: flex;
+    justify-content: space-between;
+    width: 60%;
+    margin-left: 20%;
+}
+.slider-buttons {
+    display: flex;
+}
+.slider-head {
+    display: flex;
+}
+.abouttext {
+    font-size:30px;
+    font-family: 'Oswald', sans-serif;
+    margin-left: 50px;
+}
+.button-left{
+    width: 50px;
+    height: 50px;
+    border: 3px solid rgb(0, 91, 193);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+    padding-top: 10px;
+    padding-left: 15px;
+    color: rgb(0, 91, 193);
+}
+.button-right{
+    width: 50px;
+    height: 50px;
+    border: 3px solid rgb(0, 91, 193);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+    padding-top: 10px;
+    padding-left: 15px;
+    color: rgb(0, 91, 193);
+}
+.slider-strings{
+    padding-top: 12px;
+}
+.sliderpic {
+    background-image: url(/img/Rectangle\ 4.png);
+    width: 540px;
+    height: 400px;
+}
+.aboutpic {
+    background-color: white;
+    height: 100px;
+    width: 250px;
+    margin-left: 40%;
+    ;
 }
